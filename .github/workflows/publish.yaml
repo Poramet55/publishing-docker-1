@@ -28,5 +28,5 @@ jobs:
 
       - name: Build and push Docker image
         run: |
-          docker build . --tag ghcr.io/Poramet55/publishing-docker :latest
-          docker push ghcr.io/Poramet55/publishing-docker :latest
+          docker build . --tag ghcr.io/Poramet55/publishing-docker-1:latest
+          docker push ghcr.io/Poramet55/publishing-docker-1:latest
